@@ -18,8 +18,8 @@ public class PagingSpecification implements PagingSpecificationInterface {
 	private List<Integer> pageNumbersOutsideLeadingRange = new ArrayList<Integer>();
 	private List<Integer> pageNumbersOutsideTrailingRange = new ArrayList<Integer>();
 
-	private final Integer leadingPageRangeDisplayed = 5;
-	private final Integer trailingPageRangeDisplayed = 5;
+	private final Integer leadingPageRangeDisplayed = 10;
+	private final Integer trailingPageRangeDisplayed = 10;
 	private final Integer leadingPageRange = 8;
 	private final Integer trailingPageRange = 8;
 	private final Integer numPagesOutsideRange = 2;
